@@ -1,0 +1,25 @@
+---
+# Required roles for DevOps with AWS course
+roles:
+  - name: geerlingguy.apache
+    version: 3.1.0
+  
+  - name: geerlingguy.nginx
+    version: 3.1.0
+  
+  - name: geerlingguy.mysql
+    version: 3.3.0
+  
+  - name: geerlingguy.python
+    version: 4.3.0
+
+# Required collections
+collections:
+  - name: amazon.aws
+    version: 3.1.0
+  
+  - name: community.aws
+    version: 3.1.0
+  
+  - name: community.general
+    version: 4.5.0
